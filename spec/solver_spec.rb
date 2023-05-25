@@ -32,6 +32,10 @@ describe Solver do
     expect(@solver.fizzbuzz(15)).to eq("fizzbuzz")
   end
 
+  it "test when n is not divided by 3 and 5 should return n in string" do
+    expect(@solver.fizzbuzz(7)).to eq("7")
+  end
+
   
 end
 # When N is divisible by 3, return "fizz".
