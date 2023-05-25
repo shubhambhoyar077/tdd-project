@@ -17,7 +17,7 @@ describe Solver do
   end
 
   it "test reverse method it should return reverse of string" do
-    expect{@solver.reverse("hello")}.to eq("olleh")
+    expect(@solver.reverse("hello")).to eq("olleh")
   end
 
 end
