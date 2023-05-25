@@ -24,6 +24,10 @@ describe Solver do
     expect(@solver.fizzbuzz(6)).to eq("fizz")
   end
 
+  it "test when n is divided by 10 should return buzz" do
+    expect(@solver.fizzbuzz(10)).to eq("buzz")
+  end
+
   
 end
 # When N is divisible by 3, return "fizz".
