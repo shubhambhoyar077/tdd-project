@@ -1,8 +1,6 @@
 class Solver
   def factorial(number)
-    if(number == 0)
-      return 1
-    end
+    return 1 if number == 0
     fact = number * factorial(number - 1)
   end
 end
