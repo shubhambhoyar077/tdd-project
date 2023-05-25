@@ -13,6 +13,6 @@ describe Solver do
   end
 
   it "test for negative factorial should raise ArgumentError" do
-    expect{@solver.factorial(-4)}.to raise(ArgumentError)
+    expect{@solver.factorial(-4)}.to raise_error(ArgumentError)
   end
 end
