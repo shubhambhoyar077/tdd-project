@@ -24,8 +24,12 @@ describe Solver do
     expect(@solver.fizzbuzz(6)).to eq("fizz")
   end
 
-  it "test when n is divided by 10 should return buzz" do
+  it "test when n is divided by 5 should return buzz" do
     expect(@solver.fizzbuzz(10)).to eq("buzz")
+  end
+
+  it "test when n is divided by 3 and 5 should return fizzbuzz" do
+    expect(@solver.fizzbuzz(15)).to eq("fizzbuzz")
   end
 
   
